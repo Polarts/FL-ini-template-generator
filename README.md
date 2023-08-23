@@ -1,4 +1,4 @@
-# FL INI Template Generator 
+# Freelancer INI Template Generator 
 
 Generates a very basic template for INI structures in FL with types of their values. Currently limited to a certain extent. Still very buggy!
 
