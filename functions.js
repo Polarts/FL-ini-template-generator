@@ -22,7 +22,9 @@ function getDetailedType(val) {
     if (isInt) return "int";
     const isFloat = parseFloat(val);
     if (isFloat) return "float";
-    return "string";
+    val = val.toString();
+    if (val.includes("\\")) return `file_path.${val.split('.').at(-1)}`;
+    return "string"
 }
 
 function turnIniObjToTypes(iniObj) {

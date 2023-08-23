@@ -1,6 +1,6 @@
 {
   "name": "fl-ini-template-generator",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Generates a very basic template for INI structures in FL with types such as int, float, string, or a tuple of those.",
   "main": "index.js",
   "scripts": {
